@@ -1,0 +1,13 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: content-api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.98.131:3306/sellerdb?characterEncoding=UTF-8
+    username: allan
+    password: infinity
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
